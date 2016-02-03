@@ -29,5 +29,5 @@ else
 		chmod +r /etc/pacman.d/antergos-mirrorlist;
 	fi
 	
-	pacman-optimize
+	pacman-optimize && sync
 fi
