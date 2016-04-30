@@ -1,7 +1,7 @@
-# archlinux-mirrorsort
+# Archlinux-mirrorsort
 
-This script is developed to order by download speed archlinux, antergos and manjaro mirrors. 
-There are two versions: one with all types of mirrors (http+https) and one that filters only https mirrors, both save only the top 10 mirrors. 
+This script is developed to order by download speed archlinux, antergos and manjaro mirrors (only "all mirrors" version, see below). 
+There are two versions: one with all types of mirrors (http+https) that supports manjaro also and one that filters only https mirrors, both save only the top 10 mirrors (archlinux+antergos) or as if your config file is set (manjaro). 
 In addiction the script also optimize the pacman databases.
 
 ## Installation
